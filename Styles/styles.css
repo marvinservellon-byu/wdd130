@@ -1,7 +1,5 @@
 main {
     max-width: 840px;
-    text-align: left;
-    border-top: 1px solid #000;
 }
 
 nav {
@@ -11,13 +9,13 @@ nav {
 nav a {
     color: white;
     display: contents;
-    padding: 30px;
+    padding: 10px;
 }
 h1 {
     color: steelblue;
 }
 main img {
-    width: 200px;
+    width: 150px;
     height: auto;
     
     padding: 3px;
@@ -31,7 +29,7 @@ p {
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
