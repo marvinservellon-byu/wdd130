@@ -1,13 +1,13 @@
 /* Paleta de colores utilizada: https://coolors.co/b5a2d4-d9bbf9-d3b1ce-bba3aa */
 :root {
-    --primary-color: #2DE1EE;
-    --secondary-color: #031A6B;
-    --accent1-color: #0E79B2;
-    --accent2-color: #CABAC8;
+    --primary-color: #d3b1ce;
+    --secondary-color: #d9bbf9;
+    --accent1-color: #bba3aa;
+    --accent2-color: #B5A2D4;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
