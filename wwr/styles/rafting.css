@@ -1,0 +1,175 @@
+/* Paleta de colores utilizada: https://coolors.co/b5a2d4-d9bbf9-d3b1ce-bba3aa */
+:root {
+    --primary-color: #2DE1EE;
+    --secondary-color: #031A6B;
+    --accent1-color: #0E79B2;
+    --accent2-color: #CABAC8;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2DE1EE; 
+}
+
+
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img.logo {
+    max-width: 150px;
+}
+
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    background-color: #ffffff; 
+}
+
+section h2 {
+    color: var(--accent1-color);
+    align-content: left;
+}
+
+section img {
+    width: 80%;
+    height: auto;
+    margin: 10px 0;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery figure {
+    text-align: center;
+    width: 20%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer nav.sociallinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .sociallinks a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .sociallinks img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+footer .sociallinks a:hover img {
+    transform: scale(1.2);
+}
+
+
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+section .p {
+    align-content: last baseline;
+}
